@@ -8,7 +8,7 @@
 Sometimes you would like to set up a folder structure in an R project for your RMarkdown report, so that files are well organised in their relevant folders. Here is an example of a folder structure:
 * data (store any data files you want to import for the RMarkdown report, except those you want to publish on the ISD website)
 * output (store the report produced by RMarkdown scripts. You can create subfolders under it)
-  * datafile (store the data files such as Excel tables you want to publish on ISD website)
+  * datafile (store the data files such as Excel tables you want to publish on the ISD website)
   * report (store the publication report produced by RMarkdown and any images of charts embedded into the report)
   * summary (store the publication summary produced by RMarkdown and any images of charts embedded into the summary)
 * rmarkdown (store the RMarkdown scripts and style template)
@@ -26,7 +26,7 @@ Sometimes you would like to centralise a line of text or an image in the RMarkdo
 
 ![Example for centralising](https://github.com/NHS-NSS-transforming-publications/Images/blob/master/RMD-tip2.PNG)
 
-* In your RMarkdown script, whenever you want to centralise text or image, you just add some HTML code around the text/image.
+* In your RMarkdown script, whenever you want to centralise text or an image, you just add some HTML code around the text/image.
 
 ```
 <Div custom-style = "Style_Centre">Text/Image</Div>
