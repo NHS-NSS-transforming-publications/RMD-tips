@@ -57,3 +57,5 @@ If PreviousBookmarkName = "tableA" Then
 End If
 ```
 Please note that the bookmark names are generated wherever you use “#” in the RMarkdown script for headings. In the "ISD-NATIONAL-STATS-REPORT.docx", go to *Insert – Bookmark*, and you will see a list of all bookmark names in the document.
+
+![Bookmark names](https://github.com/NHS-NSS-transforming-publications/Images/blob/master/RMarkdown9.PNG)
