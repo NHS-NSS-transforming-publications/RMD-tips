@@ -52,4 +52,4 @@ If PreviousBookmarkName = "tableA" Then
    objTable.Style = "TableA_Style"
 End If
 ```
-Please note that the bookmark names are generated wherever you use “#” in the RMarkdown script for headings. Go to *Insert – Bookmark*, then you will see a list of all bookmark names in the document.
+Please note that the bookmark names are generated wherever you use “#” in the RMarkdown script for headings. In the "ISD-NATIONAL-STATS-REPORT.docx", go to *Insert – Bookmark*, and you will see a list of all bookmark names in the document.
