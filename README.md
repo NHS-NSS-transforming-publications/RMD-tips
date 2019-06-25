@@ -45,7 +45,11 @@ We currently have built in two table styles in the “NATIONAL_STATS_REPORT_TEMP
 
 ![table styles](https://github.com/NHS-NSS-transforming-publications/Images/blob/master/RMarkdown3.PNG)
 
-Click "New Table Style". Give it a Name, and you can set the table format as you want. You can choose different settings for different table element in “Apply formatting to” dropdown list. Then click OK. Save and close the document. To apply the new style, you only need to replace the bookmark name with “tableA”, and the table style name you set with “TableA_Style” in the VBA code:
+Click "New Table Style". Give it a Name, and you can set the table format as you want. You can choose different settings for different table element in “Apply formatting to” dropdown list. Then click OK. Save and close the document. 
+
+![Create new style](https://github.com/NHS-NSS-transforming-publications/Images/blob/master/RMarkdown8.PNG)
+
+To apply the new style, you only need to replace the bookmark name with “tableA”, and the table style name you set with “TableA_Style” in the VBA code:
 
 ```vba
 If PreviousBookmarkName = "tableA" Then 
