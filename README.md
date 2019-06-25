@@ -1,7 +1,7 @@
 # Table of Contents
-* [Set up a Folder Structure in an RMarkdown Project](set-up-a-folder-structure-in-an-rmarkdown-project)
-* [How to Centralise Text or Image in the RMarkdown Report](how-to-centralise-text-or-image-in-the-rmarkdown-report)
-* [How to Create a Customised Table Style](how-to-create-a-customised-table-style)
+* [Set up a Folder Structure in an RMarkdown Project](#set-up-a-folder-structure-in-an-rmarkdown-project)
+* [How to Centralise Text or Image in the RMarkdown Report](#how-to-centralise-text-or-image-in-the-rmarkdown-report)
+* [How to Create a Customised Table Style](#how-to-create-a-customised-table-style)
 
 ***
 # Set up a Folder Structure in an RMarkdown Project
