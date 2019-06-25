@@ -1,6 +1,7 @@
 # Table of Contents
 * [Set up a Folder Structure in an RMarkdown Project](set-up-a-folder-structure-in-an-rmarkdown-project)
 * [How to Centralise Text or Image in the RMarkdown Report](how-to-centralise-text-or-image-in-the-rmarkdown-report)
+* [How to Create a Customised Table Style](how-to-create-a-customised-table-style)
 
 ***
 # Set up a Folder Structure in an RMarkdown Project
@@ -38,4 +39,17 @@ For example:
 ```
 Please note that for an image without a caption, you need to leave a space between ```\``` and ```</div>```. The text or image should be centralised after knitting.
 
+# How to Create a Customised Table Style
 
+We currently have built in two table styles in the “NATIONAL_STATS_REPORT_TEMPLATE.docx”. The style named as “ISD_pubs_tables” is for all tables except Glossary, and the other named as “Glossary_Style” is for Glossary. You can create more customised table styles if you want. To do that, open “NATIONAL_STATS_REPORT_TEMPLATE.docx”, click any cell of the table, and go to Design. Click on the down arrow in Table Styles. 
+
+![table styles](https://github.com/NHS-NSS-transforming-publications/Images/blob/master/RMarkdown3.PNG)
+
+Click "New Table Style". Give it a Name, and you can set the table format as you want. You can choose different settings for different table element in “Apply formatting to” dropdown list. Then click OK. Save and close the document. To apply the new style, you only need to replace the bookmark name with “tableA”, and the table style name you set with “TableA_Style” in the VBA code:
+
+```vba
+If PreviousBookmarkName = "tableA" Then 'Change these as needed for each style type!
+   objTable.Style = "TableA_Style"
+End If
+```
+Please note that the bookmark names are generated wherever you use “#” in the RMarkdown script for headings. Go to *Insert – Bookmark*, then you will see a list of all bookmark names in the document.
