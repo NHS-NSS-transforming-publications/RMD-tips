@@ -14,18 +14,18 @@ Sometimes you would like to set up a folder structure in an R project for your R
   * summary (store the publication summary produced by RMarkdown and any images of charts embedded into the summary)
 * rmarkdown (store the RMarkdown scripts and style template)
 
-To make the folder structure work properly, you need to add some scripts in .Rmd files and create some R scripts. You can find a real example of applying a folder structure in an RMarkdown project [here](https://github.com/NHS-NSS-transforming-publications/Folder-Structure-RMD).
+To make the folder structure work properly, you need to add some scripts in .Rmd files and create some R scripts. You can find a real example of applying a folder structure in an RMarkdown project [here](https://github.com/public-health-scotland/Folder-Structure-RMD).
 
 # How to Centralise Text or Images in the RMarkdown Report
 
 Sometimes you would like to centralise a line of text or an image in the RMarkdown report. Here are the steps to set it up:
 * Go to the style template file (e.g. NATIONAL_STATS_REPORT_TEMPLATE.docx). Click on the small arrow under "Change Styles" to open up the Styles window. Click on "New Style" button, a window "Create New Style from Formatting" opens up.
 
-![Example for centralising](https://github.com/NHS-NSS-transforming-publications/Images/blob/master/RMD-tip1.PNG)
+![Example for centralising](https://github.com/public-health-scotland/Images/blob/master/RMD-tip1.PNG)
 
 * Give the new style a name (e.g. Style_Centre) and for Style based on choose "Normal". Click "Center" under Formatting. Then click OK. Now you can save the file and close it.
 
-![Example for centralising](https://github.com/NHS-NSS-transforming-publications/Images/blob/master/RMD-tip2.PNG)
+![Example for centralising](https://github.com/public-health-scotland/Images/blob/master/RMD-tip2.PNG)
 
 * In your RMarkdown script, whenever you want to centralise text or an image, you just add some HTML code around the text/image.
 
